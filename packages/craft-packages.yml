@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@craftdocs/craft-extension-api
+packages:
+- language: javascript
+  registry: npm
+  name: "@craftdocs/craft-extension-api"
+  url: https://www.npmjs.com/package/@craftdocs/craft-extension-api
+  install: npm install @craftdocs/craft-extension-api
+  version: 0.0.4
+  license: MIT
+  repository: https://github.com/craftdocs/craft-extension-api
+  description: Craft eXtension API — TypeScript/JavaScript API for building extensions that run inside the Craft app.
+  official: true
