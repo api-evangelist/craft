@@ -6,12 +6,10 @@ server:
   name: craft
   transport: http
   vendor: Craft Docs Ltd.
-  description: >-
-    Craft ships an official remote MCP server as part of its "Imagine" platform,
-    letting MCP clients (Claude, ChatGPT, Claude Code, Cursor, VS Code, Windsurf,
-    Raycast, Codex, Manus, Mistral Le Chat, Zapier, and others) read and work with
-    a user's Craft Space, Daily Notes, tasks, and selected documents. The MCP
-    connection is provisioned per user from inside the Craft app / Imagine platform;
+  description: Craft ships an official remote MCP server as part of its "Imagine" platform, letting MCP
+    clients (Claude, ChatGPT, Claude Code, Cursor, VS Code, Windsurf, Raycast, Codex, Manus, Mistral Le
+    Chat, Zapier, and others) read and work with a user's Craft Space, Daily Notes, tasks, and selected
+    documents. The MCP connection is provisioned per user from inside the Craft app / Imagine platform;
     no single static public endpoint URL is published.
   clients:
   - Claude
@@ -28,8 +26,11 @@ server:
   - Zapier
 docs: https://www.craft.do/imagine
 tools: []
-notes: >-
-  Provider-published MCP server confirmed via the Imagine platform marketing and
-  setup surface. Tool list is not enumerated on a public static page (connection
-  and tool exposure are provisioned in-app), so tools[] is left empty rather than
-  fabricated.
+notes: Provider-published MCP server confirmed via the Imagine platform marketing and setup surface. Tool
+  list is not enumerated on a public static page (connection and tool exposure are provisioned in-app),
+  so tools[] is left empty rather than fabricated.
+deployment:
+  mode: remote
+  verified: searched
+  checked: '2026-08-12'
+  source: catalog MCP census
