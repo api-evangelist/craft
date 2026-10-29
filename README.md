@@ -64,6 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-craft is a company surfaced as a portfolio company of creandum, uncork-capital and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Craft (Craft Docs Ltd.) is a consumer and team productivity app that combines notes, documents, tasks, and daily planning in a single cross-platform workspace for macOS, iOS, iPadOS, Windows, and web. Beyond the end-user app, Craft exposes a developer surface through its "Imagine" platform: an official eXtension API (a TypeScript/JavaScript SDK, @craftdocs/craft-extension-api, for building extensions that run inside Craft), a Craft Connect REST API that exposes a user's Space, Daily Notes, tasks, and selected documents, and an official remote MCP server that connects Craft to Claude, ChatGPT, Cursor, and other MCP clients. Documentation is published on a Mintlify help center with a machine-readable llms.txt, and the company states SOC 2, ISO 27001, and GDPR compliance.
 
-Backed by: creandum, uncork-capital — https://www.craft.do/
+**Areas:** Company · Consumer · Productivity · Notes · Documents · Note Taking · Task · Collaboration · Writing · Artificial Intelligence · MCP · Extensions
+
+## craft on APIs.io
+
+Everything profiled for craft is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/craft/](https://apis.io/providers/craft/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Craft Connect API](https://apis.io/apis/craft/craft-connect-api/) — Craft Connect exposes a user's Craft Space, Daily Notes, tasks, and selected documents over REST as part of the Imagine platform, so tools like Apple…
+- [Craft eXtension API](https://apis.io/apis/craft/craft-extension-api/) — The Craft eXtension API is an official TypeScript/JavaScript SDK (@craftdocs/craft-extension-api) for building extensions that run inside the Craft app to…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [craft](https://apis.io/servers/craft/craft/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Craft Domain Security](https://apis.io/security/craft/craft-domain-security/)
+- [Craft Trust Center](https://apis.io/security/craft/craft-trust-center/)
+- [Craft Vulnerability Disclosure](https://apis.io/security/craft/craft-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.craft.do/)
+- [Documentation](https://support.craft.do/)
+- [API reference](https://connect.craft.do/api-docs)
+- [Pricing](https://www.craft.do/pricing)
+- [Support](https://support.craft.do/)
+- [Changelog](https://www.craft.do/whats-new)
+- [Blog](https://www.craft.do/blog)
+- [Security](https://www.craft.do/security/responsible-disclosure)
+- [Compliance](https://www.craft.do/security)
+- [Terms of service](https://www.craft.do/terms)
+- [Privacy policy](https://www.craft.do/privacy)
+- [GitHub](https://github.com/craftdocs)
+- [Status](https://craftdocs.statuspage.io/)
+
+## API Evangelist rating
+
+**Kin Score 34.6** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.7 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 44.7 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 47.4 |
+
+**Agent readiness 3.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/craft/](https://apis.io/providers/craft/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for craft: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/craft/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
